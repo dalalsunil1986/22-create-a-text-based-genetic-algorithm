@@ -3,7 +3,7 @@ class Specimen {
     this.genes = []
   }
 
-  calculateFitness() {
+  fitness() {
     let score = this.genes.reduce((acc, gene) => {
       return acc + gene.fitness
     }, 0)

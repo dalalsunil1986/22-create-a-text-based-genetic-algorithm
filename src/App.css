@@ -10,10 +10,8 @@ body {
 }
 
 .letter {
-  width: 20px;
-  height: 20px;
-  border: 1px solid grey;
+  font-size: 1.4em;
   color: white;
   display: inline-block;
-  margin: 1px;
+  margin: 5px;
 }
